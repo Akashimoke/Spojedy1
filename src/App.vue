@@ -15,7 +15,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import { ref, onMounted, onUnmounted } from 'vue'
-import NavBar from './components/NavBar.vue'
+import NavBar from './components/Navbar.vue'
 
 // State global untuk menentukan apakah aplikasi sedang memakai dark mode.
 const isDarkMode = ref(true)
